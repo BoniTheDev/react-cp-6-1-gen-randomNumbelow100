@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  height: 350px;
+  padding: 15px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  background-color: #ffffff;
+  border: 1px solid #e4ebf3;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .inner-container {
+    width: 35%;
+    max-width: 500px;
+  }
+}
+
+.heading {
+  color: #0b69ff;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+
+.random-para {
+  color: #333333;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.button {
+  width: 125px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.random-number {
+  color: #0b69ff;
+  font-size: 45px;
+  font-weight: 700;
+}
